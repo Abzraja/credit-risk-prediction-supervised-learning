@@ -26,7 +26,9 @@ I used both Logistic Regression and Random Forest Classifier models to evaluate 
 
 ### What is Logistic Regression
 <img src="Images/linear_vs_logistic_regression.jpg" width="600">
->Logistic regression, despite its name, is a classification model rather than regression model. Logistic regression is a simple and more efficient method for binary and linear classification problems. It is a classification model, which is very easy to realize and achieves very good performance with linearly separable classes. It is an extensively employed algorithm for classification in industry. The logistic regression model, like the Adaline and perceptron, is a statistical method for binary classification that can be generalized to multiclass classification. Scikit-learn has a highly optimized version of logistic regression implementation, which supports multiclass classification task.
+
+> Logistic regression, despite its name, is a classification model rather than regression model. Logistic regression is a simple and more efficient method for binary and linear classification problems. It is a classification model, which is very easy to realize and achieves very good performance with linearly separable classes. It is an extensively employed algorithm for classification in industry. The logistic regression model, like the Adaline and perceptron, is a statistical method for binary classification that can be generalized to multiclass classification. Scikit-learn has a highly optimized version of logistic regression implementation, which supports multiclass classification task.
+
 <cite>https://www.sciencedirect.com/topics/computer-science/logistic-regression</cite>
 
 Binary classification means the prediction is either true or false. Instead of fitting a linear line to the data like in Linear Regression, an S-shaped logistic function is fit to the data instead. The S-shaped curve goes from 0-1 and denotes the probability of the label being true of false based on the features.
@@ -37,7 +39,8 @@ Binary classification means the prediction is either true or false. Instead of f
 Random Forests are built from decision trees. Decision trees are easy to build and interpret but in practice are not accurate.
 
 > Trees have one aspect that prevents them from being the ideal tool for predictive learning, namely inaccuracy.
-<br/><cite>The Elements of Statistical Learning</cite>
+
+<cite>The Elements of Statistical Learning</cite>
 
 Decision trees work well with the data used to create them, but are not flexible when classifying new samples.
 
